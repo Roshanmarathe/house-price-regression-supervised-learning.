@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Animated workflow: EDA, cleaning, feature engineering, encoding and scaling, model training, residual analysis, save pipeline">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="#0b1020"/>
+  <rect x="1" y="1" width="1198" height="258" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#94a3b8">END-TO-END ML WORKFLOW</text>
+  <line x1="20" y1="150" x2="1180" y2="150" stroke="url(#rail)" stroke-width="3" stroke-dasharray="8 8" opacity="0.55">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+  <g>
+    <rect x="20" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#38bdf8" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="0.1s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="84" cy="95" r="16" fill="#38bdf8"/>
+    <text x="84" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">1</text>
+    <text x="84" y="140" text-anchor="middle" font-size="26">🔍</text>
+    <text x="84" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Exploratory</text>
+    <text x="84" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Analysis</text>
+  </g>
+  <g>
+    <rect x="192" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#22d3ee" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="1.14s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="256" cy="95" r="16" fill="#22d3ee"/>
+    <text x="256" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">2</text>
+    <text x="256" y="140" text-anchor="middle" font-size="26">🧹</text>
+    <text x="256" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Data</text>
+    <text x="256" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Cleaning</text>
+  </g>
+  <g>
+    <rect x="364" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#2dd4bf" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="2.18s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="428" cy="95" r="16" fill="#2dd4bf"/>
+    <text x="428" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">3</text>
+    <text x="428" y="140" text-anchor="middle" font-size="26">🛠️</text>
+    <text x="428" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Feature</text>
+    <text x="428" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Engineering</text>
+  </g>
+  <g>
+    <rect x="536" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#a3e635" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="3.22s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="600" cy="95" r="16" fill="#a3e635"/>
+    <text x="600" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">4</text>
+    <text x="600" y="140" text-anchor="middle" font-size="26">🔢</text>
+    <text x="600" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Encode &amp;</text>
+    <text x="600" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Scale</text>
+  </g>
+  <g>
+    <rect x="708" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#fbbf24" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="4.26s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="772" cy="95" r="16" fill="#fbbf24"/>
+    <text x="772" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">5</text>
+    <text x="772" y="140" text-anchor="middle" font-size="26">🤖</text>
+    <text x="772" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Model</text>
+    <text x="772" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Training</text>
+  </g>
+  <g>
+    <rect x="880" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#fb923c" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="5.3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="944" cy="95" r="16" fill="#fb923c"/>
+    <text x="944" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">6</text>
+    <text x="944" y="140" text-anchor="middle" font-size="26">📉</text>
+    <text x="944" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Residual</text>
+    <text x="944" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Analysis</text>
+  </g>
+  <g>
+    <rect x="1052" y="95" width="128" height="110" rx="18" fill="#111a33" stroke="#f472b6" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;6;2;2" keyTimes="0;0.07;0.16;1" dur="7.3s" begin="6.34s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="1116" cy="95" r="16" fill="#f472b6"/>
+    <text x="1116" y="101" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#0b1020">7</text>
+    <text x="1116" y="140" text-anchor="middle" font-size="26">💾</text>
+    <text x="1116" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Save</text>
+    <text x="1116" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Pipeline</text>
+  </g>
+  <circle r="9" fill="#ffffff" filter="url(#glow)">
+    <animateMotion path="M 20 150 L 1180 150" dur="7.3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="240" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b">train.csv  →  reusable scikit-learn pipeline (models/house_price_model.pkl)</text>
+</svg>

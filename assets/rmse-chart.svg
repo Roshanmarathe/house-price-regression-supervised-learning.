@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-label="Test RMSE by model in USD, lower is better. XGBoost 19,541.55; Lasso 20,052.30; Ridge 20,595.72; Linear 22,764.58; Random Forest 23,083.16">
+  <defs>
+    <linearGradient id="best" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
+    <linearGradient id="other" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#475569"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+  </defs>
+  <rect width="1000" height="400" rx="24" fill="#0b1020"/>
+  <rect x="1" y="1" width="998" height="398" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f1f5f9">Test RMSE by Model (USD)</text>
+  <text x="40" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Lower is better  •  held-out 20% test set  •  original SalePrice scale</text>
+  <text x="40" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#a3e635">XGBoost</text>
+  <rect x="200" y="110" width="0" height="28" rx="8" fill="url(#best)">
+    <animate attributeName="width" values="0;437.7;437.7;0" keyTimes="0;0.2;0.92;1" dur="9s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="649.7" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#a3e635" opacity="0">$19,541.55  •  R² 0.9309  🏆
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.25;0.92;1" dur="9s" begin="0.0s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="180" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1">Lasso Regression</text>
+  <rect x="200" y="160" width="0" height="28" rx="8" fill="url(#other)">
+    <animate attributeName="width" values="0;449.2;449.2;0" keyTimes="0;0.2;0.92;1" dur="9s" begin="0.25s" repeatCount="indefinite"/>
+  </rect>
+  <text x="661.2" y="180" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" opacity="0">$20,052.30  •  R² 0.9272
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.25;0.92;1" dur="9s" begin="0.25s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="230" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1">Ridge Regression</text>
+  <rect x="200" y="210" width="0" height="28" rx="8" fill="url(#other)">
+    <animate attributeName="width" values="0;461.3;461.3;0" keyTimes="0;0.2;0.92;1" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="673.3" y="230" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" opacity="0">$20,595.72  •  R² 0.9232
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.25;0.92;1" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1">Linear Regression</text>
+  <rect x="200" y="260" width="0" height="28" rx="8" fill="url(#other)">
+    <animate attributeName="width" values="0;509.9;509.9;0" keyTimes="0;0.2;0.92;1" dur="9s" begin="0.75s" repeatCount="indefinite"/>
+  </rect>
+  <text x="721.9" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" opacity="0">$22,764.58  •  R² 0.9062
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.25;0.92;1" dur="9s" begin="0.75s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#cbd5e1">Random Forest</text>
+  <rect x="200" y="310" width="0" height="28" rx="8" fill="url(#other)">
+    <animate attributeName="width" values="0;517.1;517.1;0" keyTimes="0;0.2;0.92;1" dur="9s" begin="1.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="729.1" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" opacity="0">$23,083.16  •  R² 0.9035
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.25;0.92;1" dur="9s" begin="1.0s" repeatCount="indefinite"/>
+  </text>
+  <line x1="200" y1="100" x2="200" y2="360" stroke="#334155" stroke-width="2"/>
+  <text x="40" y="382" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Bars start at $0. Differences between models are modest; see the 5-fold CV table for stability.</text>
+</svg>
