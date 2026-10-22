@@ -1,0 +1,20 @@
+# Ames Housing Price Prediction - Project Dependencies
+
+# Data processing
+numpy>=1.26,<3
+pandas==2.2.3
+
+# Visualization / EDA
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+
+# Machine learning, preprocessing, cross-validation, and evaluation
+scikit-learn==1.8.0
+xgboost==3.1.3
+
+# Save and load the trained model pipeline
+joblib>=1.3,<2
+
+# Notebook environment
+jupyter>=1.0,<2
+ipykernel>=6.29,<7
